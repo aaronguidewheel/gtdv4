@@ -4,6 +4,9 @@ A personal GTD system built as an Obsidian vault — templates, scripts, and das
 
 This repo is **private**. If you can't see/clone it, ask to be added as a collaborator first.
 
+## Install Obsidian
+Download from [obsidian.md](https://obsidian.md) (free, Mac/Windows/Linux/mobile) and install it if you don't already have it. No account or sign-in needed to use it locally.
+
 ## Get it
 
 **Option A — GitHub Desktop (recommended, no git experience needed):**
