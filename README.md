@@ -21,6 +21,9 @@ git clone https://github.com/aaronguidewheel/gtdv4.git
 1. Open Obsidian → **"Open folder as vault"** → select the cloned/unzipped folder.
 2. Obsidian will ask to trust the vault's community plugins — allow it (Dataview, Tasks, Buttons, Templater are all listed but not yet enabled).
 
+## Delete `demo/` before real use
+`demo/` is a populated example vault included for reference — not something to keep around. Delete the whole folder before you start adding your own projects. Until you do, its fictional tasks will show up mixed into your real dashboards (`Today`, `Waiting For`, `All Open Tasks`, etc.) — the Tasks-plugin queries filter with a substring match on the projects folder, and `demo/002 projects/...` matches it just as much as your real `002 projects/` does.
+
 ## Then set up the plugins
 Follow **`Quick Start.md`** in the vault root — it walks through installing/enabling the four plugins, the two Templater settings, and how to create your first project. Takes a few minutes.
 

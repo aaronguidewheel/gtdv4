@@ -1,5 +1,8 @@
 Setup guide for your own personal copy of this GTD vault. Single-user only in this version — see `system/Data Model.md` for what's planned for team use.
 
+## 0. Delete `demo/` first
+`demo/` is a populated example vault included for reference — not something to keep around. Delete the whole folder before doing anything else. Until you do, its fictional tasks will show up mixed into your real dashboards (`Today`, `Waiting For`, `All Open Tasks`, etc.) — the Tasks-plugin queries filter with a substring match on the projects folder, and `demo/002 projects/...` matches it just as much as your real `002 projects/` does.
+
 ## 1. Install plugins
 Settings → Community plugins → Browse → install and enable all four:
 - **Dataview**
