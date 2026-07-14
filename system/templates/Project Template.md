@@ -1,6 +1,6 @@
 ---
 del:
-started: 2026-07-10
+started: <% tp.file.creation_date("YYYY-MM-DD") %>
 tags:
 ---
 ## Why
@@ -38,8 +38,6 @@ name ➕ Add task
 type line(+1) template
 action Add Task
 ```
-
-- [ ]
 
 ---
 *Customize: [[Values]] · [[Project Categories]]*
