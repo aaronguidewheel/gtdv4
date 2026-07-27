@@ -13,3 +13,4 @@ Frontend query system for the whole vault — each note in this folder is a sing
 
 **Projects**
 - [[All Projects]] — grouped by category tag (`project/...`)
+- [[Archived Projects]] — done, moved out of the way (`005 archive/`)

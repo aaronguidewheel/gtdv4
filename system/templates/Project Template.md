@@ -3,6 +3,12 @@ del:
 started: <% tp.file.creation_date("YYYY-MM-DD") %>
 tags:
 ---
+```button
+name 📦 Archive project (done)
+type line(+1) template
+action Archive Project
+```
+
 ## Why
 
 ```dataviewjs
