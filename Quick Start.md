@@ -32,9 +32,13 @@ Right-click `002 projects` → New note. The template applies automatically: `st
 - Click chips under `## Why` to tag a project's purpose.
 - **"New linked note"** creates a dated note in `project-notes/`, linked back to the project.
 - **"Add task"** prompts for text + a type (Calls, Errands, Computer, Waiting For, Someday) and inserts it as a checkbox with the right tag. Picking Waiting For asks who/what you're waiting on.
-- `next-actions/` — the dashboards: `Today`, `This Week`, `Due or Overdue`, `Waiting For`, `Stuck Projects`, `All Projects`, `No Context`, `Recently Completed`, and one per context (`Calls`, `Errands`, `Computer`, `Someday`).
+- **Archive** — the `📦 Archive project (done)` button tags a project `status/done` and moves it to `005 archive/`, out of every active-project view.
+- `next-actions/` — the dashboards: `Inbox`, `Today`, `This Week`, `Due or Overdue`, `Waiting For`, `Stuck Projects`, `All Projects`, `Archived Projects`, `No Context`, `Recently Completed`, and one per context (`Calls`, `Errands`, `Computer`, `Someday`).
 
-## 6. If something breaks
+## 6. Capture from your phone
+`001 inbox/Main Inbox.md` and `001 inbox/Do Doobie Do.md` (urgent) are plain checklists, on purpose — pin either as a home-screen widget (e.g. the "Obsidian Widget" by Harshil Chordia on Android) for Google-Tasks-style quick capture, checkable right from the home screen. Needs your vault synced to your phone first (Obsidian Sync, or Syncthing if you're not paying for Sync). `next-actions/Inbox.md` shows both lists combined for a desktop glance.
+
+## 7. If something breaks
 Read `system/Data Model.md` — it documents every mechanism and every bug hit building this, including the fixes. Don't edit anything under `system/` directly unless you're changing how the vault itself works.
 
 See `LICENSE.md` and `EULA.md` for terms of use.

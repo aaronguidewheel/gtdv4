@@ -1,5 +1,8 @@
 Frontend query system for the whole vault — each note in this folder is a single-purpose live view, nothing to maintain by hand.
 
+**Inbox**
+- [[Inbox]] — combined view of `Main Inbox` and `Do Doobie Do`, unprocessed
+
 **Tasks**
 - [[All Open Tasks]] — everything not done, grouped by project
 - [[Today]], [[This Week]], [[Due or Overdue]] — deadline triage at different zoom levels

@@ -99,6 +99,13 @@ erDiagram
 - **Frontmatter:** `type: reference`, `tags` (optional)
 - **Relationships:** none formal — linked ad hoc via wikilinks from Project/Task bodies as needed. "Static" = not part of the GTD workflow (not reviewed/processed), just lookup material.
 
+### Inbox
+- **Folder:** `001 inbox/`
+- **Storage:** not one-file-per-item — two standing notes, `Main Inbox.md` (general capture) and `Do Doobie Do.md` (urgent), each just a checkbox list (`- [ ] ...`), same primitive as Tasks.
+- **Why two notes instead of many small files:** mobile capture. A phone home-screen widget (e.g. the "Obsidian Widget" by Harshil Chordia) pins one note and renders its checkboxes live, editable without opening the app — matching a Google-Tasks-style capture widget. Widgets read the note's raw file content directly (not through Dataview/the Obsidian plugin engine), so the checkable items have to physically live inside the pinned note — a query aggregating separate files wouldn't render on the widget.
+- **Views:** `next-actions/Inbox.md` — a `tasks` query (`path includes 001 inbox`, grouped by filename) giving a combined desktop view of both lists, purely for convenience; the two source notes remain the actual capture targets.
+- **Processing:** during review, check off (done/discarded) or promote a line into a real Project/Task, then delete it from the inbox note — inbox items are meant to be transient, not accumulate.
+
 ## Setup checklist (one-time, in Obsidian settings)
 Templater is installed and enabled, but its settings need pointing at the files this build added — I can't drive Obsidian's settings UI myself:
 1. **Settings → Templater → Template folder location** → `system/templates`
