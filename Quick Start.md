@@ -36,9 +36,12 @@ Right-click `002 projects` → New note. The template applies automatically: `st
 - `next-actions/` — the dashboards: `Inbox`, `Today`, `This Week`, `Due or Overdue`, `Waiting For`, `Stuck Projects`, `All Projects`, `Archived Projects`, `No Context`, `Recently Completed`, and one per context (`Calls`, `Errands`, `Computer`, `Someday`).
 
 ## 6. Capture from your phone
-`001 inbox/Main Inbox.md` and `001 inbox/Do Doobie Do.md` (urgent) are plain checklists, on purpose — pin either as a home-screen widget (e.g. the "Obsidian Widget" by Harshil Chordia on Android) for Google-Tasks-style quick capture, checkable right from the home screen. Needs your vault synced to your phone first (Obsidian Sync, or Syncthing if you're not paying for Sync). `next-actions/Inbox.md` shows both lists combined for a desktop glance.
+`001 inbox/Main Inbox.md` and `001 inbox/Do Doobie Do.md` (urgent) are plain checklists, on purpose — pin either as a home-screen widget for Google-Tasks-style quick capture, checkable right from the home screen. On Android, **TaskForge** (Play Store, works with Obsidian Sync, stores tasks as plain markdown) is a solid option — a widget just needs to read the raw file content directly, not through Obsidian's plugin engine, so Dataview/Tasks-plugin query results won't render on a widget, only the physical checkbox lines in the pinned file will. Needs your vault synced to your phone first (Obsidian Sync, or Syncthing if you're not paying for Sync). `next-actions/Inbox.md` shows both lists combined for a desktop glance.
 
-## 7. If something breaks
+## 7. Optional patterns worth knowing about
+`system/GTD Agent Directive.md` documents a few opt-in patterns you can adopt if you're running an AI agent (like Claude Code) against this vault for GTD housekeeping — recapture tracking, a `focus/daily` shortlist tag, a priority-prefix filename convention, Block Party-style calendar time-blocking, and a five-source inbox-ingestion sweep (email/chat/meeting-notes/calendar, whichever you've actually connected). None of these are required for the vault to work manually; they're there if you want an agent driving day-to-day housekeeping.
+
+## 8. If something breaks
 Read `system/Data Model.md` — it documents every mechanism and every bug hit building this, including the fixes. Don't edit anything under `system/` directly unless you're changing how the vault itself works.
 
 See `LICENSE.md` and `EULA.md` for terms of use.

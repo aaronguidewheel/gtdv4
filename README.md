@@ -1,4 +1,4 @@
-# GTD Vault System (v0.1.0-beta)
+# GTD Vault System (v0.2.0-beta)
 
 A personal GTD system built as an Obsidian vault — templates, scripts, and dashboards, no manual upkeep once set up. Single-user only in this version (see `system/Data Model.md` for what's planned for team use).
 
